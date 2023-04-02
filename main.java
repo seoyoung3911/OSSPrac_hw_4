@@ -7,18 +7,21 @@ public class main {
 
 		Scanner sc = new Scanner(System.in);
 		
-		String a;
+		String a,d;
 		int b;
 		
 		System.out.print("이름을 입력하세요: ");
 		a = sc.next();
 		System.out.print("학번을 입력하세요: ");
 		b = sc.nextInt();
+		System.out.print("학과를 입력하세요: ");
+		d = sc.next();
 		
 		System.out.println();
 		System.out.println("<출력>");
 		System.out.println("이름: " + a);
 		System.out.println("학번: " + b);
+		System.out.println("학: " + d);
 		
 		sc.close();
 		
